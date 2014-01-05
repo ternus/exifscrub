@@ -47,7 +47,7 @@ func main() {
 		}
 	}
 
-	out, err := os.Create(os.Args[1])
+	out, err := os.Create(os.Args[2])
 
 	if err != nil {
 		log.Fatal(err)
